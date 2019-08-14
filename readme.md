@@ -1,7 +1,6 @@
 Документация по API
 <br>
 / получить список задач
-
 <br>
 Route :: get ('tasks', 'TaskController @ index');
 <br>
@@ -21,6 +20,5 @@ Route :: post ('task', 'TaskController @ store');
 Route :: put ('task', 'TaskController @ store');
 <br>
 // удаляем задачу
-
 <br>
 Route :: delete ('task / {id}', 'TaskController @ destroy');
